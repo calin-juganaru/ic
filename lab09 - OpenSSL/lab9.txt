@@ -1,0 +1,6 @@
+openssl enc -d -aes-256-cbc -in aesgcm.c.enc -kfile password.bin -out aesgcm.c
+
+https://crypto.stackexchange.com/questions/26783/ciphertext-and-tag-size-and-iv-transmission-with-aes-in-gcm-mode
+
+https://wiki.openssl.org/index.php/EVP_Authenticated_Encryption_and_Decryption
+
